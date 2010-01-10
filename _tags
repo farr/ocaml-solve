@@ -1,0 +1,3 @@
+<test> : include
+<test/*.ml> : use_oUnit, use_poly
+<test/*.{native,byte}> : use_unix, use_oUnit, use_poly
